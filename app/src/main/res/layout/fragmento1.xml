@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9e1a5" >
+    <TextView android:id="@+id/texto1"
+        android:text="FRAGMENTO1"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+    <TextView android:id="@+id/texto3"
+        android:text="FRAGMENTO1"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/importarTexto1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="IMPORTAR TEXTO"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/exportarTexto1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="EXPORTAR TEXTO"
+        android:textColor="#000000"/>
+
+</LinearLayout>
